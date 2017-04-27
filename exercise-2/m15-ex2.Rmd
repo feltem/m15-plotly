@@ -1,0 +1,28 @@
+---
+title: "tsssss"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(plotly)
+
+
+
+volcano.thingy <- plot_ly(
+  z = volcano, 
+  type = 'heatmap'
+   
+  ) 
+
+
+  
+
+
+```
+
+`r volcano.thingy`
+
+
+
+
